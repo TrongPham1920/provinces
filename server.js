@@ -6,7 +6,7 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 
-const BASE_URL = process.env.PROVINCE_API_BASE;
+const BASE_URL = process.env.BASE_URL;
 const SELF_URL = process.env.SELF_URL;
 
 // ✅ Lấy danh sách tỉnh/thành
